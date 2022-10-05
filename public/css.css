@@ -1,0 +1,36 @@
+.container .github a,
+.container .google a {
+  display: block;
+  width: 100%;
+  height: 45px;
+  font-size: 15px;
+  text-decoration: none;
+  padding-left: 20px;
+  color: #fff;
+  line-height: 45px;
+  border-radius: 5px;
+}
+
+.container .github a {
+  background-color: #24292e;
+  margin: 20px 0 15px 0;
+}
+
+.container .github a:hover {
+  background-color: #6d7e8f;
+}
+
+.container .google a {
+  background: red;
+  margin: 20px 0 15px 0;
+}
+
+.container .google a:hover {
+  background: #aabbbe;
+}
+
+.container .github i,
+.container .google i {
+  font-size: 22px;
+  padding-right: 22px;
+}
